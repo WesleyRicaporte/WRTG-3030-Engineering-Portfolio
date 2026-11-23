@@ -1,0 +1,247 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Popular Science Article | Wesley Ricaporte</title>
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f7fa;
+  color: #263445;
+  line-height: 1.7;
+}
+header {
+  background: #17324d;
+  color: white;
+  padding: 25px 8%;
+}
+nav a {
+  color: white;
+  margin-right: 25px;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover { text-decoration: underline; }
+main {
+  max-width: 950px;
+  margin: 45px auto;
+  padding: 0 25px;
+}
+h1, h2 { color: #17324d; }
+h1 { font-size: 34px; line-height: 1.3; }
+h2 { margin-top: 30px; }
+.card {
+  background: white;
+  padding: 35px;
+  border-radius: 12px;
+  box-shadow: 0 3px 15px rgba(0,0,0,0.07);
+  margin-bottom: 25px;
+}
+.article-image {
+  width: 100%;
+  max-width: 620px;
+  height: auto;
+  border-radius: 8px;
+}
+figure {
+  margin: 25px 0;
+}
+figcaption {
+  font-size: 13px;
+  color: #657080;
+  margin-top: 8px;
+}
+.stat {
+  background: #eaf1f7;
+  border-left: 5px solid #17324d;
+  padding: 18px 24px;
+  margin: 25px 0;
+  border-radius: 5px;
+}
+.stat strong {
+  font-size: 32px;
+  color: #17324d;
+}
+footer {
+  text-align: center;
+  padding: 25px;
+  color: #657080;
+}
+@media(max-width:600px) {
+  .card { padding: 20px; }
+  nav a {
+    display: inline-block;
+    margin: 5px 12px 5px 0;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2 style="color:white">Wesley Ricaporte</h2>
+  <p>Electrical & Computer Engineering</p>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="synthesis.html">Synthesis</a>
+    <a href="popular-science.html">Popular Science</a>
+  </nav>
+</header>
+
+<main>
+<article class="card">
+
+<h1>Can Prosthetic Hands Learn to Understand Human Movement?</h1>
+<p><em>Popular Science Article | WRTG 3030</em></p>
+
+<figure>
+  <img src="emg-illustration.jpg"
+       alt="Surface EMG sensors detecting muscle activity"
+       class="article-image">
+  <figcaption>
+    Surface EMG electrodes detect electrical activity
+    produced by muscles, allowing researchers to study
+    how those signals can recognize human movements.
+    Illustration: Zie Hefzie / Dreamstime.
+  </figcaption>
+</figure>
+
+<p>
+Imagine reaching for a bottle, but instead of just
+moving your hand, you have to figure out how to make
+a prosthetic hand respond. For most people, hand
+movements happen without thinking. However, for someone
+using a prosthetic hand, even simple movements can be
+difficult. Being able to pick up a cup or open a door
+without assistance could make a big difference in
+someone's independence. Researchers are using artificial
+intelligence to recognize muscle signals and make
+prosthetic hands easier to control.
+</p>
+
+<h2>How Can Muscles Control a Prosthetic Hand?</h2>
+
+<p>
+In a 2025 study published in
+<em>Results in Engineering</em>, Lingzhi Lin and other
+researchers investigated how computers recognize hand
+movements using electrical signals from muscles.
+Their goal was to develop an accurate system that
+required little computing power, which could eventually
+make prosthetic technology more affordable.
+</p>
+
+<p>
+This technology uses electromyography, or EMG.
+When muscles contract, they produce small electrical
+signals that sensors on the skin can detect.
+Even someone missing a hand may still have working
+forearm muscles that produce signals when they attempt
+to move their missing hand.
+</p>
+
+<p>
+The challenge is figuring out what these signals mean.
+Different movements can produce similar patterns,
+making it difficult for a computer to distinguish
+between actions like gripping and releasing.
+</p>
+
+<h2>Teaching a Computer to Recognize Movement</h2>
+
+<p>
+The researchers used EMG signals from 40 healthy
+adults performing six hand and wrist actions,
+including gripping, wrist movements, and resting.
+</p>
+
+<p>
+Instead of analyzing every detail, they focused on
+four characteristics that helped distinguish movements.
+This process, called feature extraction, identifies
+important patterns, such as the strength of electrical
+activity.
+</p>
+
+<p>
+They then used a type of artificial intelligence
+called a multilayer perceptron, or MLP, to recognize
+movements. This neural network learns from examples,
+similar to how someone learns to recognize handwriting.
+By studying different muscle signals, it learns which
+patterns correspond to specific movements.
+</p>
+
+<p>
+Keeping the system simple also reduces computing
+power and energy requirements, which could lead to
+smaller components and longer battery life. However,
+recognizing movements accurately is only part of
+the challenge. The system also needs to respond quickly.
+</p>
+
+<h2>How Fast and Accurate Is the System?</h2>
+
+<div class="stat">
+  <strong>97.7% Accuracy</strong>
+  <p>
+    The computer correctly identified almost 98
+    out of every 100 movements during testing.
+  </p>
+</div>
+
+<p>
+Lin and his team achieved 97.7 percent accuracy in
+recognizing muscle signal patterns. The system also
+recognized movements in about 3.2 milliseconds on
+the testing computer. This is important because
+delays could make a prosthetic hand difficult to control.
+</p>
+
+<p>
+Some wrist movements produced similar signals,
+occasionally confusing the computer. The study
+also focused on recognizing signals rather than
+testing a complete prosthetic hand. More research
+is needed to determine how well the technology
+works for people with limb loss.
+</p>
+
+<p>
+These results show how artificial intelligence
+could eventually make prosthetic hands more
+responsive, practical, and easier to use in
+everyday life.
+</p>
+
+</article>
+
+<section class="card">
+<h2>Research Source</h2>
+<p>
+Lin, L., et al. (2025).
+Low-computational EMG gesture recognition for
+prosthetic control via handcrafted features and
+lightweight MLP.
+<em>Results in Engineering, 27</em>, 106602.
+</p>
+<p>
+<a href="https://doi.org/10.1016/j.rineng.2025.106602"
+   target="_blank" rel="noopener noreferrer">
+Read the original research study
+</a>
+</p>
+</section>
+
+</main>
+
+<footer>
+  Wesley Ricaporte | WRTG 3030 Engineering Portfolio
+</footer>
+
+</body>
+</html>
