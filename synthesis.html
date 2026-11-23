@@ -1,0 +1,176 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Synthesis | Wesley Ricaporte</title>
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f7fa;
+  color: #263445;
+  line-height: 1.7;
+}
+header {
+  background: #17324d;
+  color: white;
+  padding: 25px 8%;
+}
+nav a {
+  color: white;
+  margin-right: 25px;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover { text-decoration: underline; }
+main {
+  max-width: 950px;
+  margin: 45px auto;
+  padding: 0 25px;
+}
+h1, h2 { color: #17324d; }
+.card {
+  background: white;
+  padding: 35px;
+  border-radius: 12px;
+  box-shadow: 0 3px 15px rgba(0,0,0,0.07);
+  margin-bottom: 25px;
+}
+.references p {
+  padding-left: 30px;
+  text-indent: -30px;
+  overflow-wrap: anywhere;
+}
+footer {
+  text-align: center;
+  padding: 25px;
+  color: #657080;
+}
+@media(max-width:600px) {
+  .card { padding: 20px; }
+  nav a { display: inline-block; margin: 5px 12px 5px 0; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2 style="color:white">Wesley Ricaporte</h2>
+  <p>Electrical & Computer Engineering</p>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="synthesis.html">Synthesis</a>
+    <a href="popular-science.html">Popular Science</a>
+  </nav>
+</header>
+
+<main>
+<section class="card">
+<h1>EMG Technology and Prosthetic Hand Control</h1>
+<p><em>Research Synthesis | WRTG 3030</em></p>
+
+<p>
+Electromyography (EMG) technology uses electrical signals
+from muscles to control prosthetic hands. However,
+recognizing muscle signals is only one part of making a
+prosthetic work effectively. Three studies by Lin et al.
+(2025), Kalita et al. (2025), and Tchimino et al. (2024)
+look at different challenges involving signal processing,
+prosthetic performance, and feedback. Together, they
+show how these factors help make prosthetic hands easier
+to use.
+</p>
+
+<p>
+Lin et al. (2025) focused on processing EMG signals to
+recognize six hand movements. Their system picked out
+important characteristics from the signals and used a
+neural network to recognize patterns, reaching 97.7%
+accuracy. The system also required relatively little
+computing power, which could allow for smaller and less
+expensive components. However, recognizing a movement
+correctly does not necessarily mean a prosthetic hand
+can perform it well.
+</p>
+
+<p>
+Kalita et al. (2025) looked at how their ENRICH prosthetic
+hand performed during actual tasks. They tested its
+strength, range of motion, and ability to move objects.
+Participants got better with practice, showing that
+accurate signals alone are not enough. While Lin focused
+on recognizing movements, Kalita showed how the design
+of the prosthetic and the user's experience also affect
+how well it works.
+</p>
+
+<p>
+Tchimino et al. (2024) looked at how someone could control
+a prosthetic hand when their forearm muscles were not
+available. Their study used the pectoralis major muscle,
+located in the chest, of a participant with a high-level
+amputation to control a prosthetic hand. They also added
+vibration feedback to help control gripping force. The
+participant's success rate increased from 42% without
+feedback to 73% with feedback (p. 4). Unlike the other
+studies, this research showed how using different muscles
+and adding feedback can improve control.
+</p>
+
+<p>
+Together, these studies show that EMG prosthetic control
+involves more than recognizing muscle signals. Lin shows
+the importance of accurate signal processing, Kalita
+shows how design and practice affect performance, and
+Tchimino shows why feedback matters. Their findings
+suggest that combining these approaches could make
+prosthetic hands more reliable and easier to use in
+everyday life.
+</p>
+</section>
+
+<section class="card references">
+<h2>References</h2>
+
+<p>
+Kalita, A. J., Chanu, M. P., Kakoty, N. M.,
+Vinjamuri, R. K., &amp; Borah, S. (2025).
+Functional evaluation of a real-time EMG
+controlled prosthetic hand.
+<em>Wearable Technologies, 6</em>, e18.
+<a href="https://doi.org/10.1017/wtc.2025.7">
+https://doi.org/10.1017/wtc.2025.7</a>
+</p>
+
+<p>
+Lin, L., Dai, Y., Zhang, G., Ge, Y., Mayet, A. M.,
+Pan, X., Yang, G., &amp; Lin, M. (2025).
+Low-computational EMG gesture recognition for
+prosthetic control via handcrafted features
+and lightweight MLP.
+<em>Results in Engineering, 27</em>, 106602.
+<a href="https://doi.org/10.1016/j.rineng.2025.106602">
+https://doi.org/10.1016/j.rineng.2025.106602</a>
+</p>
+
+<p>
+Tchimino, J., Hansen, R. L., Jørgensen, P. H.,
+Dideriksen, J., &amp; Dosen, S. (2024).
+Application of EMG feedback for hand prosthesis
+control in high-level amputation: A case study.
+<em>Scientific Reports, 14</em>, 31676.
+<a href="https://doi.org/10.1038/s41598-024-80828-x">
+https://doi.org/10.1038/s41598-024-80828-x</a>
+</p>
+</section>
+</main>
+
+<footer>
+Wesley Ricaporte | WRTG 3030 Engineering Portfolio
+</footer>
+
+</body>
+</html>
